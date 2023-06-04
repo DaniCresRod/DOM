@@ -1,0 +1,127 @@
+body{
+    margin: 0 auto;
+    width: 80vw;
+    text-align: center;
+}
+
+img{
+    width: 40vw;
+}
+
+li{
+    width: auto;
+    list-style-position: inside;
+}
+
+/*
+
+/*Todos los parrafos dentro del div seran azules
+#lotr_section p{
+    color:blue;
+}
+
+/*Todos los parrafos que sean hijos directos del div serán rojos
+#lotr_section > p{
+    color:red;
+}
+
+/*Todas las img que vayan a continuacion de otro parrafo
+p + img{
+    border:2px solid orange;
+}
+
+/*Todos los parrafos que vayan despues de una imagen
+img + p{
+    border:2px solid orange;
+}
+
+/*Todos los parrafos que vayan DESPUES de un article, no dentro (hermanos, no hijos)
+article + p{
+    border:2px solid greenyellow;
+}
+
+/*Todas las imagenes que tengan un atributo alt cuyo valor sea "Gimli"
+img[alt="Gimli"]{
+    border-radius: 15px;
+}
+
+/*Todo lo que tenga un atributo width cuyo valor sea "400"
+[width="400"]{
+    display:none;
+}*/
+
+/*Inserta una foto antes de cada seccion de la página
+section::before{
+    content: url(/Resources/gimli.jpg);
+}
+
+/*Inserta un texto despues de un parrafo que vaya despues de una imagen
+img + p::after{ 
+    content: " .Creditos a quien corresponda";
+}
+
+/*Cambia el tamaño solo a la primera letra de cada parrafo
+section > p::first-letter{
+    font-size: 3em;
+}
+
+/*Cambia el color de la primera linea de los parrafos que van despues de otro parrafo
+p + p::first-line{
+    color:greenyellow;
+}
+
+/*Cambia el bullet de la lista
+li::marker{
+    content: "=>"
+}
+
+/*Un link que nunca se ha visitado
+a:link{
+    color:aqua;
+}
+
+/*Un link que se ha visitado
+a:visited{
+    color:darkgoldenrod;
+}
+
+/*Un elemento que cambia cuando se pasa el raton sobre el
+a:hover{
+    font-size: large;
+}
+
+/*un link cuando se le esta clicando encima
+a:active{
+    color: orange;
+}
+
+/*los parrafos que sean primer hijo de algun article en cursiva
+article p:first-child{
+    font-style: italic;    
+}
+
+/*los nodos que sean ultimo hijo de ul en negrita
+ul :last-child{
+    font-weight: bold;
+}
+
+/*los nodos ul que sean ultimo hijo de alguien, tachados
+ul:last-child{
+    text-decoration:line-through;
+}
+
+/*cada elemento li que sea segundo hijo de algien
+li:nth-of-type(2){
+    font-size:20px;
+}
+
+article :not(img){
+    background-color: brown;
+}
+
+*/
+
+
+
+
+
